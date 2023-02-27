@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+.row{
+    background-color: rgb(179, 94, 16);
+    border-radius: 30px;
+    box-shadow: 12px 12px 27px;
+    width: auto;
+    height: 37.5rem;
+}
+img{
+    width: 120%;
+    height: 37.5rem;
+    border-top-left-radius: 350px;
+    border-bottom-right-radius: 400px;
+}
+.login h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 16px 9px 30px 19px rgba(202, 169, 20, 0.808);
+}
+.btn1{
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgba(123,4,4,1) 0%, rgba(253,106,29,1) 60%, rgb(202, 159, 18) );
+    color: white;
+}
+.btn1:hover{
+    background: radial-gradient(circle, rgba(145, 90, 207,1) 12%, rgba(148,187,233,1) 62% );
+}
+.fa-facebook{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-instagram{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.fa-instagram:hover{
+    color: rgb(255, 0, 234);
+}
+.fa-linkedin{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.fa-instagram:hover{
+    color: rgb(255, 0, 234);
+}
+.fa-linkedin:hover{
+    color: blueviolet;
+}
